@@ -1,5 +1,5 @@
 """
-Job Shop Scheduling Dashboard — Semaine 3
+Job Shop Scheduling Dashboard 
 Comparaison : Aléatoire / SPT / OR-Tools
 """
 
