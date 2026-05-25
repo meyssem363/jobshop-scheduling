@@ -240,8 +240,8 @@ run_btn = st.sidebar.button("▶ Lancer l'optimisation", type="primary", use_con
 
 st.sidebar.markdown("---")
 st.sidebar.caption("Projet 2 · Semaine 3 · Dashboard Streamlit")
-st.sidebar.caption(f"Espace de solutions : {n_jobs}! ≈ {np.math.factorial(n_jobs):.2e}")
-
+import math
+st.sidebar.caption(f"Espace de solutions : {n_jobs}! ≈ {math.factorial(n_jobs):.2e}")
 
 # ─── Titre principal ──────────────────────────────────────────────────────────
 st.title("📊 Job Shop Scheduling — Dashboard Interactif")
